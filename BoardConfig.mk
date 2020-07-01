@@ -61,7 +61,7 @@ TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
-
+TW_DEVICE_VERSION := VNR-2.0
 # Include
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/crownlte/include
 
