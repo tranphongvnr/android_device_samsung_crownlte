@@ -1,21 +1,9 @@
 [
 	{
 		"remote":"github",
-		"repository":"corsicanu/android_kernel_samsung_universal9810",
-		"target_path":"kernel/samsung/universal9810",
-		"revision":"android-9.0"
-	},
-	{
-		"remote":"github",
-		"repository":"3arthur6/android_kernel_samsung_crownlte",
+		"repository":"tranphongvnr/9810-Kernel",
 		"target_path":"kernel/samsung/crownlte",
-		"revision":"android-9.0"
-	},
-	{
-		"remote":"github",
-		"repository":"3arthur6/android_external_busybox",
-		"target_path":"external/busybox",
-		"revision":"android-9.0"
+		"revision":"tw10-android-4.9-q"
 	},
 	{
 		"remote":"github",

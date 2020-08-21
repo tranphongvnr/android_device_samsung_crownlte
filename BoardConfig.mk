@@ -26,9 +26,10 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := exynos9810-crownlte_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/universal9810
+TARGET_KERNEL_SOURCE := kernel/samsung/crownlte
 
 # Image
+TARGET_RECOVERY_FSTAB := device/samsung/crownlte/recovery.fstab
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/crownlte/mkbootimg.mk
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
@@ -61,7 +62,11 @@ TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
-TW_DEVICE_VERSION := VNR-2.0
+TW_DEVICE_VERSION := VNR-3.0
 # Include
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/crownlte/include
+TARGET_COPY_OUT_VENDOR := vendor
+BOARD_AVB_ENABLE := false
+BOARD_BUILD_DISABLED_VBMETAIMAGE := true
+
 
