@@ -65,8 +65,6 @@ TW_INCLUDE_FBE := true
 TW_DEVICE_VERSION := VNR-3.0
 # Include
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/crownlte/include
-TARGET_COPY_OUT_VENDOR := vendor
-BOARD_AVB_ENABLE := false
-BOARD_BUILD_DISABLED_VBMETAIMAGE := true
+
 
 
