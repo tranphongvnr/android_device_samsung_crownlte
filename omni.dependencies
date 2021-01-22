@@ -1,16 +1,16 @@
 [
 	{
 		"remote":"github",
-		"repository":"tranphongvnr/9810-Kernel",
+		"repository":"tranphongvnr/VNR-Kernel9810",
 		"target_path":"kernel/samsung/crownlte",
-		"revision":"tw10-android-4.9-q"
+		"revision":"VNR-Q"
 	},
 	{
 		"remote":"github",
 		"repository":"3arthur6/android_external_busybox",
 		"target_path":"external/busybox",
 		"revision":"android-9.0"
-	},	
+	},
 	{
 		"remote":"github",
 		"repository":"LineageOS/android_hardware_samsung",

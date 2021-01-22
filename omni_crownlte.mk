@@ -32,10 +32,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit 64bit support
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
+
+PRODUCT_PACKAGES += \
+	charger_res_images \
+	charger
+	
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
 PRODUCT_NAME := omni_crownlte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := Note 9 VNR
+PRODUCT_MODEL := Samsung Galaxy Note 9
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_RELEASE_NAME := Note 9 VNR
+PRODUCT_RELEASE_NAME := CrownlteVNR
